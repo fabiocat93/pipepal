@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "pipepal"
-version = "0.0.1"
-description = "pipepal is a Python package for doing incredible stuff."
+version = "0.0.0"
+description = "pipepal is a Python package for doing incredible stuff for speech and voice."
 authors = [
     "fabiocat93 <fabiocat@mit.edu>",
 ]
@@ -13,7 +13,7 @@ readme = "README.md"
 homepage = "https://github.com/fabiocat93/pipepal"
 repository = "https://github.com/fabiocat93/pipepal"
 documentation = "https://fabiocat93.github.io/pipepal"
-keywords = ["python", "package", "template"]
+keywords = ["speech", "voice", "audio"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Programming Language :: Python :: 3.10",
