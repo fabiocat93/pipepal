@@ -103,11 +103,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     replacements = {
-        "YOUR_PACKAGE_NAME": args.package_name,
-        "YOUR_PACKAGE_REPO": args.package_repo_without_git_extension,
-        "YOUR_GITHUB_NICKNAME": args.github_nickname,
-        "CODECOV_GRAPHICS_TOKEN": args.codecov_token,
-        "YOUR_EMAIL": args.email,
+        "pipepal": args.package_name,
+        "https://github.com/fabiocat93/pipepal": args.package_repo_without_git_extension,
+        "fabiocat93": args.github_nickname,
+        "IQR1RCYMAA": args.codecov_token,
+        "fabiocat@mit.edu": args.email,
     }
 
     process_directory(replacements)
